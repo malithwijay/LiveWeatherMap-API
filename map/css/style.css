@@ -1,10 +1,16 @@
-body{
+body {
     background-color: deepskyblue;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
+
 .mapdiv{
-    width:28%;
+    width:30%;
     margin: auto;
+    margin-top: 40px;
+    
 }
 
 .mapdiv path {
@@ -16,4 +22,38 @@ body{
 
 .mapdiv :hover {
     fill:#000;
+}
+
+
+
+.container {
+    position: fixed;
+    top: 20px; /* Adjust this value to position the table vertically */
+    right: 20px; /* Adjust this value to position the table horizontally */
+    width: 400px; /* Adjust the width of the table */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Add a transparent background with blur effect */
+    backdrop-filter: blur(10px); /* Apply a blur effect */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+}
+
+#weatherData {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#weatherData th,
+#weatherData td {
+    padding: 8px;
+    text-align: left;
+}
+
+#weatherData th {
+    background-color: #08a246;
+    color: white;
+}
+
+#weatherData tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
