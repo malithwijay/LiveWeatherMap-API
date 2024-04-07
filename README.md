@@ -1,1 +1,4 @@
 # LiveWeatherMap-API
+
+NIBM SID - COBSCCOMP4Y222P-017
+Coventry SID - 13865818
